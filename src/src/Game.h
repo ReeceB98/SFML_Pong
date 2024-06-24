@@ -11,7 +11,11 @@ private:
 	//sf::CircleShape *shape;
 	sf::Event event;
 
+	SceneManager MenuText;
+
 	void init_window();
+
+	enum game_scenes { MENU, GAMEPLAY, ENDSCREEN };
 
 public:
 
